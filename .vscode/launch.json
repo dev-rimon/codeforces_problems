@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+  
+    {
+      "name": "Run C++ (macOS)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/Debug/outDebug",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/rimon/Desktop/codeforces/codeforces",
+      "program": "/Users/rimon/Desktop/codeforces/codeforces/build/Debug/outDebug"
+    }
+  ]
+}
