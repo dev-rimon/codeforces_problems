@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rimon/Desktop/codeforces/codeforces/build/Debug/output/160a'
+relocations:     []
+...

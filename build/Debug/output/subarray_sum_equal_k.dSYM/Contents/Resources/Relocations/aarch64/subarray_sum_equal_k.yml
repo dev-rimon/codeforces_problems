@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rimon/Desktop/codeforces/codeforces/build/Debug/output/subarray_sum_equal_k'
+relocations:     []
+...

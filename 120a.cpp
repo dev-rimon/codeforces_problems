@@ -4,7 +4,7 @@
 
 using namespace std;
 
-bool search_martix(vector<vector<int>>& martix, int target)
+bool search_martix(vector<vector<int>> &martix, int target)
 {
     int m = martix.size();
     int n = martix[0].size();
@@ -17,9 +17,9 @@ bool search_martix(vector<vector<int>>& martix, int target)
         int value = martix[row][col];
         if (value == target)
             return true;
-       else  if (value < target)
+        else if (value < target)
             left = mid + 1;
-        else 
+        else
             right = mid - 1;
     }
     return false;
@@ -34,4 +34,3 @@ int main()
         cout << "Not Found" << endl;
     return 0;
 }
-
