@@ -27,7 +27,7 @@ int maximum_sum(vector<int> arr)
 
         int main()
         {
-            vector<int> arr = {1, 3, 5, 7, 9, 8, 6, 4, 2};
+            vector<int> arr = {1, 3, 5, 7, 2};
             cout << maximum_sum(arr);
             return 0;
         }

@@ -9,7 +9,6 @@ int main()
 
     // input array
     for (int i = 0; i < n; i++)
-        cin >> arr[i];
 
     // print index of 1, 2, 3, ... in order
     for (int value = 1; value <= n; value++)
