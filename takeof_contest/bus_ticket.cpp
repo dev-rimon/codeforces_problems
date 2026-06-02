@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main (){
+int n,t,s;
+cin>>n>>t>>s;
+if (n<=t && n<=s)
+{
+   cout<<"Yes\n";
+}
+else {
+    cout<<"No\n";
+}
+
+
+
+
+}
